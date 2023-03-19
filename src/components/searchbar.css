@@ -1,0 +1,30 @@
+/* searchbar styling below*/
+
+.input-wrapper{
+    background-color: white;
+    width: 27%;
+    border-radius: 10px;
+    height: 2.5rem;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+input {
+    background-color: transparent;
+    border: none;
+    height: 100px;
+    font-size: 1.25rem;
+    width: 100px;
+    margin-left: 5px;
+    width: 1000px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#search-icon {
+    color: black;
+}
+
