@@ -23,9 +23,10 @@ function NameList(){
             director: "Edgar Wright"
         },
     ]
+    
 
     const personList = persons.map(person => <h5>Movie: {person.movie} - Director: {person.director}</h5>)
-    return <div>{personList}</div>
+    return <div className="movies">{personList}</div>
     
     
 }

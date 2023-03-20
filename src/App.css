@@ -38,7 +38,7 @@
 }
 
 
-/* list styling below*/
+/* dropdown list styling below*/
 
 
 *{
@@ -92,7 +92,10 @@
 
 /*namelist stylings below*/
 
-.NameList{
+.movies{
+  color: lightblue;
   text-align: left;
+  padding: 10px;
+  font-weight: 10px;
 }
 
