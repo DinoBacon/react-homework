@@ -1,0 +1,29 @@
+.weather-container{
+    width: 400px;
+    margin: 100 auto;
+    user-select: none;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  
+  .weather-container .weather-header {
+    padding: 0.1px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-weight: bold;
+    color: #333  
+  }
+  
+  .weather-container .weather-data {
+    top: 110%;
+    padding: 10px;
+    background: #dadada;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-weight: 500;
+    color: #2b2b2b;
+  }
+  
+  .weather-container .weather-info {
+   padding: 1px; 
+   transition: all 0.2s;
+  }

@@ -5,7 +5,7 @@ import Dropdown from './components/dropdown.jsx';
 import SearchBar from './components/searchbar.jsx';
 import NameList from './components/namelist.js';
 import Dropdown2 from './components/dropdown2.jsx';
-
+import Weather from './components/weather.jsx';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Employee />
         <SearchBar />
         <NameList />
+
 
         <img src={logo} className="App-logo" alt="logo" />
         <a
@@ -29,6 +30,10 @@ function App() {
       
         <Dropdown />
         <Dropdown2 />
+        <Weather />
+
+
+        
         
 
       </header>
